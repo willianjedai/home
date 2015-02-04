@@ -1,4 +1,4 @@
 module.exports = {
   url: '127.0.0.1',
-  port: process.port
+  port: process.env.PORT
 }
