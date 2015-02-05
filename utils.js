@@ -16,6 +16,6 @@ module.exports = function() {
 
   return {
     url: config.url || '0.0.0.0',
-    port: config.port || process.env.PORT
+    port: process.env.PORT || config.port || 3000
   }
 }();
