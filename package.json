@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha test/",
-    "start": "node index.js"
+    "start": "slc run index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "strongloop": "^2.10.3"
   }
 }
