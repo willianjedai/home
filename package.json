@@ -1,14 +1,10 @@
 {
   "name": "WillianRSabiao",
   "version": "0.0.1",
-  "description": "Portifólio do Willian R. Sabião",
-  "main": "index.js",
-  "engines": {
-    "node": "0.10.x"
-  },
+  "description": "Willian R. Sabião Portfolio",
+  "main": "index.html",
   "scripts": {
-    "test": "mocha test/",
-    "start": "slc run index.js"
+    "start": "browser-sync start --server --port 3000 --logLevel debug --no-open --files *.html *.css *.js"
   },
   "repository": {
     "type": "git",
@@ -21,14 +17,13 @@
   },
   "homepage": "https://github.com/willianjedai/home",
   "dependencies": {
-    "extend": "^2.0.0",
-    "hapi": "^8.1.0",
-    "request": "^2.53.0",
-    "strongloop": "^2.10.3"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-stylus": "^2.7.0"
   },
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "mocha": "^2.1.0"
-  }
+  "devDependencies": {}
 }

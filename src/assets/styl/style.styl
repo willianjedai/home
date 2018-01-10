@@ -1,0 +1,31 @@
+primary-color = #0097a7
+primary-text-color = #fff
+
+
+linear_gradient(origin, colors...)
+  fallback = colors[1][0]
+
+  colors = join(', ', colors)
+  colors = unquote(colors)
+
+  background-color: fallback
+  background-image: -webkit-linear-gradient(origin, colors) // Chrome, Safari
+  background-image:    -moz-linear-gradient(origin, colors) // Firefox (3.6 - 15)
+  background-image:     -ms-linear-gradient(origin, colors) // IE 10
+  background-image:      -o-linear-gradient(origin, colors) // Opera (11.1 - 12.0) 
+  background-image:         linear-gradient(origin, colors) // W3C
+
+
+body
+  linear_gradient(bottom right, primary-color, lighten(primary-color, 30))
+  color primary-text-color
+  font-family 'Cardo', sans-serif
+  font-weight 400
+  font-size: 14px
+  text-align: center
+  min-height: 100vh
+  
+h1
+  font-size 50px
+  text-transform uppercase
+  

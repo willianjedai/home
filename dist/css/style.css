@@ -1,0 +1,20 @@
+body {
+  background-color: #41edff;
+  background-image: -webkit-linear-gradient(bottom right, #0097a7, #41edff);
+  background-image: -moz-linear-gradient(bottom right, #0097a7, #41edff);
+  background-image: -ms-linear-gradient(bottom right, #0097a7, #41edff);
+  background-image: -o-linear-gradient(bottom right, #0097a7, #41edff);
+  background-image: linear-gradient(bottom right, #0097a7, #41edff);
+  color: #fff;
+  font-family: 'Cardo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
